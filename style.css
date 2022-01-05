@@ -1,0 +1,52 @@
+.heading{
+    margin: 0%;
+    width: 100%;
+    font-size: 25px;
+    box-shadow: 10px 10px 20px black;
+
+}
+
+.note{
+
+    color: red;
+    font-size: 17px;
+}
+
+.copy_right_footer{
+    bottom: 0;
+    width: 100%;
+position: fixed;
+background-color: lightgreen;
+color: black;
+text-align: center;
+font-size: 16px;
+line-height: 2;
+}
+
+canvas{
+    border: 10px dotted;
+    background-color: lightgreen;
+    
+    
+    border-color: lightskyblue;
+    border-radius: 25px;
+    
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px purple;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px darkblue;
+    }
+}
+
+body{
+    background-size: cover;
+}
